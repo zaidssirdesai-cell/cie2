@@ -6,7 +6,7 @@ n3=float(sys.argv[3])
 def calculate():
     total = n1+n2+n3
     avg = total/3
-    per = avg*100
+    per = (total/300)*100
 
 if __name__=="__main__":
     n1=float(sys.argv[1])
