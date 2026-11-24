@@ -1,7 +1,5 @@
 import sys
-n1=float(sys.argv[1])
-n2=float(sys.argv[2])
-n3=float(sys.argv[3])
+
 
 def calculate():
     total = n1+n2+n3
