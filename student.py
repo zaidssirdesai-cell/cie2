@@ -13,7 +13,7 @@ if __name__=="__main__":
     n2=float(sys.argv[2])
     n3=float(sys.argv[3])
 
-total,avg,per=calculate(n1,n2,n3):
+total,avg,per=calculate(n1,n2,n3)
 print("Total:")
 print(total)
 print("Avergae:")
