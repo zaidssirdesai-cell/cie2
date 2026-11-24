@@ -1,10 +1,11 @@
 import sys
 
 
-def calculate():
+def calculate(n1,n2,n3):
     total = n1+n2+n3
     avg = total/3
     per = (total/300)*100
+    return total,avg,per
 
 if __name__=="__main__":
     n1=float(sys.argv[1])
