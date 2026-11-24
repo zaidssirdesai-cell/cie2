@@ -1,4 +1,4 @@
-from student.py import calculate
+from student import calculate
 def calculate_test1():
     total , avg ,per = calculate(10,10,10)
     assert total == 30
